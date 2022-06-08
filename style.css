@@ -1,27 +1,4 @@
 /*
-	The7 by TEMPLATE STOCK
-	templatestock.co @templatestock
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
-/*
-
-[Table of content]
-
-1. General Styling
-2. Header
-3. Home Slider, Parallax & Video
-4. Services Section
-5. Work Section
-6. Logo Carousel
-7. CLient Carousel
-8. Blog Section
-9. Pricing Section
-10. Contact & Comment Forms
-11. Footer
-12. Loader
-13. Clearfix
-
 
 [Color codes]
 Green #1abc9c
@@ -108,7 +85,9 @@ h4,h5,h6 {
   font-size: 1.125em;
   line-height: .5em;
 }
-
+p {
+  padding-bottom: 1.0em;
+}
 blockquote {
   line-height: 1.2em;
   display: inline-block;
@@ -156,6 +135,21 @@ blockquote p {
 .curveGrey {
   fill: #ECF0F1;
   stroke: #ECF0F1;
+}
+.content > ul {
+  text-align: left;
+  max-width: 90%;
+  padding-left: 15%;
+}
+.content > ul > li::before {
+  list-style-type: disc;
+  /* color: #1abc9c; */
+  content: "\2022 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #1abc9c; /* Change the color */
+  width: 1em;
+  display: inline-block;
+  margin-left: -1em;
+  font-weight: bold;
 }
 
 /* *********************************************************
