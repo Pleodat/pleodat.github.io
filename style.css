@@ -25,6 +25,11 @@ Grey #ECF0F1
   padding: 100px 0 150px;
 }
 
+.black {
+  background: #000000;
+  padding: 100px 0 150px;
+}
+
 a {
   color:#1abc9c;
 }
@@ -78,15 +83,23 @@ h2 {
 
 h3 {
   font-size: 1.8em;
-  line-height: 1.2em;
+  line-height: 1.5em;
 }
 
 h4,h5,h6 {
   font-size: 1.125em;
-  line-height: .5em;
+  line-height: 1.5em;
 }
 p {
   padding-bottom: 1.0em;
+}
+.content > p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+}
+.content > ul,li {
+  font-size: 1em;
+  line-height: 2.2em;
 }
 blockquote {
   line-height: 1.2em;
