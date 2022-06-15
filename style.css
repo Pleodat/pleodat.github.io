@@ -120,7 +120,21 @@ blockquote p {
 .pright-25 {
   padding-right: 25px;
 }
-
+.pleodat-offer {
+  background-color: #000
+}
+.pleodat-offer > div > .content {
+  color: white;
+}
+.pleodat-offer > div > .content > h2 {
+  color: white;
+}
+.pleodat-offer-red {
+  color: #f00;
+}
+.pleodat-offer-white {
+  color: #fff;
+}
 .curveUpColor, .curveDownColor {
   fill: #fff;
   stroke: #fff;
@@ -128,7 +142,13 @@ blockquote p {
   left: 0;
   z-index: 1;
 }
-
+.curveUpColorBlack, .curveDownColorBlack {
+  fill: #000;
+  stroke: #000;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
 .curveUpColor {
   margin-top: -100px;
 }
