@@ -1,7 +1,7 @@
 /*
 
 [Color codes]
-Green #1abc9c
+Green #47C0BD
 Dark Blue #16a085
 Grey #ECF0F1
 
@@ -31,7 +31,7 @@ Grey #ECF0F1
 }
 
 a {
-  color:#1abc9c;
+  color:#47C0BD;
 }
 
 a:hover {
@@ -176,9 +176,9 @@ blockquote p {
 }
 .content > ul > li::before {
   list-style-type: disc;
-  /* color: #1abc9c; */
+  /* color: #47C0BD; */
   content: "\2022 ";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #1abc9c; /* Change the color */
+  color: #47C0BD; /* Change the color */
   width: 1em;
   display: inline-block;
   margin-left: -1em;
@@ -200,7 +200,7 @@ blockquote p {
   -webkit-border-radius: 30px;
      -moz-border-radius: 30px;
           border-radius: 30px;
-  background:#1abc9c;
+  background:#47C0BD;
 }
 
 .btn:hover, .btn:focus, .btn-current {
@@ -321,12 +321,12 @@ blockquote p {
 
 .btn-ghost:hover {
   border-color: transparent;
-  background-color:#1abc9c;
+  background-color:#47C0BD;
 }
 
 .btn-ghost-dark {
-  border-color: #1abc9c;
-  color: #1abc9c;
+  border-color: #47C0BD;
+  color: #47C0BD;
 }
 
 /* *********************************************************
@@ -466,7 +466,7 @@ header > .grid {
 }
 
 .navigation .current a, .navigation ul li a:hover, .navigation ul li a:focus {
-  color:#1abc9c;
+  color:#47C0BD;
 }
 
 .navigation .sub-menu {
@@ -483,7 +483,7 @@ header > .grid {
        -o-transition: all .1s linear;
           transition: all .1s linear;
   opacity: 0;
-  border-top: 1px solid#1abc9c;
+  border-top: 1px solid#47C0BD;
   background: #fff;
 /*box-shadow*/
   -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, .1);
@@ -663,13 +663,13 @@ header > .grid {
 
 .recent-work {
   background: #6578bc; /* Old browsers */
-  background: -moz-linear-gradient(left,  #6578bc 0%, #1abc9c 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,#1abc9c)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(left,  #6578bc 0%,#1abc9c 100%); /* IE10+ */
-  background: linear-gradient(to right,  #6578bc 0%,#1abc9c 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6578bc', endColorstr='#1abc9c',GradientType=1 ); /* IE6-9 */
+  background: -moz-linear-gradient(left,  #6578bc 0%, #47C0BD 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#6578bc), color-stop(100%,#47C0BD)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #6578bc 0%,#47C0BD 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #6578bc 0%,#47C0BD 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #6578bc 0%,#47C0BD 100%); /* IE10+ */
+  background: linear-gradient(to right,  #6578bc 0%,#47C0BD 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6578bc', endColorstr='#47C0BD',GradientType=1 ); /* IE6-9 */
 
   position: relative;
   margin-bottom: 1em;
@@ -709,8 +709,8 @@ header > .grid {
 
 .filters .filter.active,
 .filters .filter:hover {
-  border: 2px solid #1abc9c;
-  color: #1abc9c;
+  border: 2px solid #47C0BD;
+  color: #47C0BD;
 }
 
 .recent-work a {
@@ -802,8 +802,8 @@ header > .grid {
 .cl-client-carousel.owl-theme .owl-controls .owl-page.active span,
 .cl-client-carousel.owl-theme .owl-controls.clickable .owl-page:hover span {
   border-color: transparent;
-  background-color:#1abc9c;
-  box-shadow: 0 0 0 3px #1abc9c;
+  background-color:#47C0BD;
+  box-shadow: 0 0 0 3px #47C0BD;
 }
 
 .header-carousel .owl-pagination, .header-carousel .owl-buttons {
@@ -848,7 +848,7 @@ header > .grid {
   Quotes Section 
 ********************************************************* */
 .quotes-icon {
-  color: #1abc9c;
+  color: #47C0BD;
   font-size: 4em;
   line-height: 1;
   margin-bottom: 27px;
@@ -922,7 +922,7 @@ header > .grid {
 }
 
 .post-wrap .post-meta i {
-  color:#1abc9c;
+  color:#47C0BD;
 }
 
 .post-wrap .post {
@@ -944,7 +944,7 @@ header > .grid {
 }
 
 .post-wrap .post p a:hover {
-  background: #1abc9c;
+  background: #47C0BD;
   color: #fff;
 }
 
@@ -1020,7 +1020,7 @@ header > .grid {
   font-weight: 300;
   margin: 0;
   padding: .6em 0;
-  color:#1abc9c;
+  color:#47C0BD;
 }
 
 .plan-wrap .title h2.best-plan-title {
@@ -1046,8 +1046,8 @@ header > .grid {
   width: 120px;
   height: 120px;
   margin: 1.5em auto;
-  color:#1abc9c;
-  border: 2px solid#1abc9c;
+  color:#47C0BD;
+  border: 2px solid#47C0BD;
 /*border-radius*/
   -webkit-border-radius: 60px;
      -moz-border-radius: 60px;
@@ -1127,7 +1127,7 @@ header > .grid {
 
 .info-counter-icon {
   font-size: 4em;
-  color: #1abc9c;
+  color: #47C0BD;
 }
 
 .info-counter-content, .info-counter-content h5 {
@@ -1173,7 +1173,7 @@ header > .grid {
 }
 
 #cd-zoom-in:hover, #cd-zoom-out:hover {
-  background-color: #1abc9c;
+  background-color: #47C0BD;
 }
 
 #cd-zoom-in {
@@ -1199,7 +1199,7 @@ header > .grid {
 }
 
 #cd-rubberBand-in:hover, #cd-rubberBand-out:hover {
-  background-color: #1abc9c;
+  background-color: #47C0BD;
 }
 
 #cd-rubberBand-in {
@@ -1344,7 +1344,7 @@ input:not([type=submit]):not([type=file]), textarea {
 }
 
 input:not([type=submit]):not([type=file]):focus, textarea:focus {
-  border-color:#1abc9c;
+  border-color:#47C0BD;
   outline: none;
 }
 
@@ -1405,7 +1405,7 @@ footer p, footer a {
 .footer-widget li {
   position: relative;
   padding: .6em 0;
-  color: #1abc9c;
+  color: #47C0BD;
   list-style-type: disc;
 }
 
@@ -1490,7 +1490,7 @@ footer p, footer a {
 }
 
 .staff-info span {
-  color:#1abc9c;
+  color:#47C0BD;
 }
 
 .staff-img {
@@ -1613,7 +1613,7 @@ footer p, footer a {
   -webkit-animation-delay: 0s;
 }
 .loader .bar:nth-child(2) {
-  background-color: #1abc9c;
+  background-color: #47C0BD;
   -webkit-animation-delay: .3s;
 }
 .loader .bar:nth-child(3) {
