@@ -548,7 +548,7 @@ header > .grid {
 .parallax-section {
   z-index: -1;
   clear: both;
-  background-image: url('images/home.jpg');
+  background-image: url('images/home.png');
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center center;
@@ -579,7 +579,7 @@ header > .grid {
 .content-header h2,
 .parallax-section .content h3,
 .content-header h3 {
-  color: #fff;
+  /* color: #fff; */
 }
 
 .parallax-section h2 > span,
